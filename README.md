@@ -1,12 +1,9 @@
-Here is the revised README file, strictly following the structure, style, and content volume of your provided reference, while accurately reflecting the specific "No-Leakage" methodology found in your script and incorporating the required institutional and file details.
-
----
-
 # CdWise-ML-Framework (No-Leakage Version): A Machine Learning Framework for Health Risk Prediction of Cadmium in Vegetables
 
 This repository contains the official source code and machine learning models for the research paper:
 
 > **"The development of the 'Cd-Wise' app for human health risk assessment, dietary recommendations, and planting structure adjustment of cadmium in chinese vegetables based on machine learning"**
+
 > *Xingang Liu, Jie Liu, Feng Li, et al.*
 > *(Journal Name, Year)* - [Link to Paper, when available]
 

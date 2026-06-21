@@ -2,10 +2,6 @@
 
 This repository contains the official source code and machine learning models for the research paper:
 
-> **"The development of the 'Cd-Wise' app for human health risk assessment, dietary recommendations, and planting structure adjustment of cadmium in chinese vegetables based on machine learning"**
-
-> *Xingang Liu, Jie Liu, Feng Li, et al.*
-> *(Journal Name, Year)* - [Link to Paper, when available]
 
 **Institutional Affiliation:** This project was developed at the:
 
@@ -119,7 +115,6 @@ If you use this code or the associated models in your research, please cite our 
 
 ```
 
-*(Please update the BibTeX entry with the final publication details.)*
 
 ## License
 

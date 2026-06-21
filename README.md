@@ -66,48 +66,40 @@ This project is developed in Python 3.8+. Ensure you have Python installed. You 
 
 1. Clone the repository:
 ```bash
-
-```
-
-
-
 git clone https://github.com/YourUsername/CdWise-ML-Framework.git
 cd CdWise-ML-Framework
-
 ```
 
 2.  Install the required packages using pip:
-    ```bash
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn torch xgboost lightgbm shap scikit-optimize openpyxl
-
 ```
 
 ### Usage
 
 1. **Place the Dataset:** Obtain the dataset `EN中国蔬菜镉含量数据库_all9_noleak.xlsx` as described in our paper's data availability statement and ensure it is placed in the correct directory.
 2. **Update File Path:** Open `p08_noleak_full_outputs.py` and update the `DATA_PATH` variable to point to your dataset if it is not in the same directory:
-```python
 
-```
 
 
 
 # Line 51 (approx.)
+```
 
 DATA_PATH = r'./data/EN中国蔬菜镉含量数据库_all9_noleak.xlsx'
 
 ```
 
 3.  **Run the Script:** Execute the main script from the terminal. This will perform all steps: data loading, leakage-feature dropping, model training with Bayesian optimization, evaluation, and the generation of all visual results and excel summaries into the `noleak_outputs/` directory.
-    ```bash
+
+```bash
 python p08_noleak_full_outputs.py
-
 ```
 
-```
+
 The script will log its progress to the console. The entire process may take some time depending on your hardware, especially during the CNN training and Bayesian optimization phases.
 
-```
+
 
 ## Citation
 

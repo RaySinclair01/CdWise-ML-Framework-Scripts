@@ -1,4 +1,4 @@
-# CdWise-ML-Framework (No-Leakage Version): A Machine Learning Framework for Health Risk Prediction of Cadmium in Vegetables
+# CdWise-ML-Framework: A Machine Learning Framework for Health Risk Prediction of Cadmium in Vegetables
 
 This repository contains the official source code and machine learning models for the research paper:
 

@@ -97,23 +97,7 @@ The script will log its progress to the console. The entire process may take som
 
 
 
-## Citation
 
-If you use this code or the associated models in your research, please cite our paper:
-
-```bibtex
-@article{Liu_202X_CdWise,
-  author    = {Liu, Xingang and Liu, Jie and Li, Feng and Yi, Shengwei and Han, Guosheng and Zhu, Lizhong and Wu, Yujun and Mei, Yancheng and Chen, Jie},
-  title     = {The development of the "Cd-Wise" app for human health risk assessment, dietary recommendations, and planting structure adjustment of cadmium in chinese vegetables based on machine learning},
-  journal   = {Journal Name},
-  year      = {202X},
-  volume    = {XX},
-  number    = {X},
-  pages     = {XXX--XXX},
-  doi       = {DOI link here}
-}
-
-```
 
 
 ## License

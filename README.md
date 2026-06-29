@@ -62,7 +62,7 @@ This project is developed in Python 3.8+. Ensure you have Python installed. You 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/CdWise-ML-Framework.git
+git clone https://github.com/RaySinclair01/CdWise-ML-Framework.git
 cd CdWise-ML-Framework
 ```
 

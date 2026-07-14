@@ -77,9 +77,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn torch xgboost lightgbm 
 2. **Update File Path:** Open `p08_noleak_full_outputs.py` and update the `DATA_PATH` variable to point to your dataset if it is not in the same directory:
 
 
-
-
-# Line 51 (approx.)
 ```
 
 DATA_PATH = r'./data/EN中国蔬菜镉含量数据库_all9_noleak.xlsx'

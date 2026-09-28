@@ -45,58 +45,8 @@ This repository provides the Python scripts to replicate the model training, eva
 │   ├── Urban_Male_model_evaluation.pdf
 │   └── ...
 ├── data/                    # Recommended directory for the dataset
-│   └── EN中国蔬菜镉含量数据库_all9_noleak.xlsx  (Note: Dataset must be placed here)
-├── p08_noleak_full_outputs.py # Main Python script for the entire no-leakage workflow
+│   └── EN中国蔬菜镉含量数据库_all9_noleak_remaining2232_补充2022-2026.xlsx  (Note: Dataset must be placed here)
+├── p08_noleak_full_outputs_all_classes.py # Main Python script for the entire no-leakage workflow
 ├── requirements.txt         # Required Python libraries
 └── README.md                # This file
-
 ```
-
-## Getting Started
-
-### Prerequisites
-
-This project is developed in Python 3.8+. Ensure you have Python installed. You will also need to install the required libraries.
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/RaySinclair01/CdWise-ML-Framework.git
-cd CdWise-ML-Framework
-```
-
-2.  Install the required packages using pip:
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn torch xgboost lightgbm shap scikit-optimize openpyxl
-```
-
-### Usage
-
-1. **Place the Dataset:** Obtain the dataset `EN中国蔬菜镉含量数据库_all9_noleak.xlsx` as described in our paper's data availability statement and ensure it is placed in the correct directory.
-2. **Update File Path:** Open `p08_noleak_full_outputs.py` and update the `DATA_PATH` variable to point to your dataset if it is not in the same directory:
-
-
-```
-
-DATA_PATH = r'./data/EN中国蔬菜镉含量数据库_all9_noleak.xlsx'
-
-```
-
-3.  **Run the Script:** Execute the main script from the terminal. This will perform all steps: data loading, leakage-feature dropping, model training with Bayesian optimization, evaluation, and the generation of all visual results and excel summaries into the `noleak_outputs/` directory.
-
-```bash
-python p08_noleak_full_outputs.py
-```
-
-
-The script will log its progress to the console. The entire process may take some time depending on your hardware, especially during the CNN training and Bayesian optimization phases.
-
-
-
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
